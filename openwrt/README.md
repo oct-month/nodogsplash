@@ -16,7 +16,7 @@ cd openwrt
 ./scripts/feeds install -a
 ./scripts/feeds uninstall nodogsplash
 
-git clone git://github.com/nodogsplash/nodogsplash.git
+git clone https://github.com/nodogsplash/nodogsplash.git
 cp -rf nodogsplash/openwrt/nodogsplash package/
 rm -rf nodogsplash/
 
