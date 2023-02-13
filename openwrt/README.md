@@ -16,7 +16,7 @@ cd openwrt
 ./scripts/feeds install -a
 ./scripts/feeds uninstall nodogsplash
 
-git clone https://github.com/nodogsplash/nodogsplash.git
+git clone https://github.com/oct-month/nodogsplash.git
 cp -rf nodogsplash/openwrt/nodogsplash package/
 rm -rf nodogsplash/
 
@@ -47,7 +47,7 @@ You might want to use your own source location and not the remote respository.
 To do this you need to checkout the repository yourself and commit your changes locally:
 
 ```
-git clone git://github.com/nodogsplash/nodogsplash.git
+git clone git://github.com/oct-month/nodogsplash.git
 cd nodogsplash
 ... apply your changes
 git commit -am "my change"
